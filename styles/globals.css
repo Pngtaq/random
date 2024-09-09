@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.orbitron {
+  font-family: var(--font-orbitron);
+}
+
+.roboto {
+  font-family: var(--font-roboto-mono);
+}
