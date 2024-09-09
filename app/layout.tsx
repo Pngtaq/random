@@ -1,4 +1,3 @@
-import Navigation from "@/components/Navigation";
 import "@/styles/globals.css";
 import { Metadata } from "next";
 import { Orbitron, Roboto_Mono } from "next/font/google";
@@ -30,7 +29,6 @@ export default function RootLayout({
       <body
         className={`${orbitron_init.variable} ${roboto_mono_init.variable} bg-slate-900`}
       >
-        <Navigation />
         {children}
       </body>
     </html>

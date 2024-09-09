@@ -3,9 +3,11 @@ import { Button } from "@/components/ui/button";
 import { TypeAnimation } from "react-type-animation";
 
 import Link from "next/link";
+import Navigation from "@/components/Navigation";
 export default function Home() {
   return (
     <div className=" text-white text-center">
+      <Navigation />
       <h1 className="text-6xl tracking-wide orbitron font-black lg:text-8xl pt-60">
         RESPOND AI
       </h1>

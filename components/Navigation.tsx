@@ -10,7 +10,9 @@ export default function Navigation() {
         RESPOND AI
       </Link>
       <div className="flex gap-6 items-center">
-        <Button variant="regular">Sign In</Button>
+        <Button variant="regular">
+          <Link href="/sign-in">Sign In</Link>
+        </Button>
         <Avatar>
           <AvatarImage src="https://github.com/shadcn.png" />
           <AvatarFallback>CN</AvatarFallback>
